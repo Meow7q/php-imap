@@ -1,0 +1,50 @@
+{
+    "name": "meow7/phpimap",
+    "description": "PHP IMAP client that based on webklex/php-imap",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meow7\\Phpimap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "meow7"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-libxml": "*",
+        "ext-zip": "*",
+        "ext-fileinfo": "*",
+        "nesbot/carbon": "^2.62.1|^3.2.4",
+        "symfony/http-foundation": ">=2.8.0",
+        "illuminate/pagination": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "suggest": {
+        "symfony/mime": "Recomended for better extension support",
+        "symfony/var-dumper": "Usefull tool for debugging"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
