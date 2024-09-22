@@ -1,15 +1,3 @@
-
-# IMAP Library for PHP
-
-[![Latest release on Packagist][ico-release]][link-packagist]
-[![Latest prerelease on Packagist][ico-prerelease]][link-packagist]
-[![Software License][ico-license]][link-license]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Hits][ico-hits]][link-hits]
-[![Discord][ico-discord]][link-discord]
-[![Snyk][ico-snyk]][link-snyk]
-
-
 ## Description
 PHP-IMAP is a wrapper for common IMAP communication without the need to have the php-imap module installed / enabled.
 The protocol is completely integrated and therefore supports IMAP IDLE operation and the "new" oAuth authentication
